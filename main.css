@@ -1,0 +1,523 @@
+html, body{
+	width: 100%;
+	height: 100%;
+}
+body{
+	font: 16px/1.42em "roboto", Arial, sans-serif;
+	color: #212121;
+	-webkit-font-smoothing:  antialised;
+	-moz-osx-font-smoothing: grayscale;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+ul>li{
+	list-style: none;
+}
+a{
+	text-decoration:none; 
+}
+
+.wrapper{
+	overflow: hidden;
+	min-width: 1440px;
+}
+.container{
+	
+	width: 1200px;
+	height: 100%;
+	
+}
+.header{
+	min-width: 1300px;
+	margin: 0 auto 0 auto;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url('img/bg.png');
+	z-index: 0;
+}
+.header__img{
+	width: 500px;
+	background-image: url(img/slider_pic_1.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: 1;
+	padding-top: 20px;
+	
+}
+
+.header__background-text{
+		font-size: 25px;
+	text-transform: uppercase;
+	line-height: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-left: 10px;
+}
+.header__line-text{
+background: #000;
+padding: 0 17px 8px;
+margin-top: -7px;
+color: #fff;
+}
+.header__line-text-yellow{
+color: #ffbc2f;
+}
+.logo{
+	margin-right: 100px;
+}
+.mail{
+	text-decoration: none;
+	text-align: center;
+	color: inherit;
+	margin-left: 100px;
+
+}
+.mail__content{
+background: #212121;
+color: #ffbc2f;
+padding: 5px 10px;
+}
+.hero{
+	margin-bottom: 50px;
+}
+
+.products__desk{
+	background: #ffb600;
+	min-width: 100%;
+	min-height: 100%;
+ 	display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.products__title{
+	line-height: 1.1em;
+}
+.title__price{
+	box-sizing: border-box;
+	background: yellow;
+}
+.tshirt__img-list{
+	width: 800px;
+	height: 600px;
+	position: relative;
+	top: 50%;
+
+}
+.products{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.products__price{
+	width: 100px;
+
+}
+.name__title{
+	font-size: 14px;
+	color: brown;
+}
+.title__price-text{
+	background: #000;
+	color: yellow;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px 0 10px 0;
+}
+.products__left{
+	z-index: 9;
+	position: relative;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+.products__desk-img{
+	min-width: 90%;
+	height: 100%;
+}
+.products__desk__right{
+	position: relative;
+	left: 0;
+	top: 50%;
+	background: #fff;
+	box-sizing: border-box;
+	border: solid 20px #ffb600; 
+	padding-left: 20px;
+	
+}
+.products__title{
+	margin-top: -50px;
+}
+.tshirt__text{
+	height: 500px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+}
+.products__descriptions{
+	border: 1px solid #6B6666;
+	border-right: none;
+	border-left: none;
+}
+.products__descriptions-text{
+	font-size: 16px;
+	line-height: 2rem;
+}
+.Button-size__List{
+
+	box-sizing: border-box;
+	margin: 10px;
+}
+.sizes__buttons{
+	margin-top: 20px;
+}
+.button__sizes{
+	display: flex;
+	justify-content: space-around;
+	padding: 0;
+	margin: 0;
+}
+.color__btn{
+	margin-top: 20px;
+}
+.color__list{
+	padding: 0 10px 0 10px;
+}
+.btn__color{
+	display: flex;
+	justify-content: start;
+	align-items: start;
+}
+.color__list{
+	display: flex;
+	flex-flow: column;
+}
+.buy__btn{
+
+	height: 50px;
+	width: 150px;
+	margin-top: 50px;
+	box-sizing: border-box;
+	border: 1px solid #000;
+
+}
+.buy__btn{
+	background: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.buy{
+	font-size: 30px;
+	color: white;
+}
+
+.info-filter{
+	display: flex;
+	justify-content: center;
+	flex: 1;
+}
+.info-filter{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	height: 100%;
+	width: 100%;
+}
+.info-filter{
+	display: flex;
+	justify-content: space-around;
+}
+.info-filter__btn{
+	text-decoration: none;
+	color: black;
+	margin: 0 20px 0 20px;
+	font-size: 24x;
+}
+.info-filter__btn{
+	text-transform: uppercase;
+	padding:  5px 10px;
+	color: #1b1b1b;
+	font-size: 24px;
+	font-weight: bold;
+	display: inline-block;
+	text-decoration: none;
+	white-space: nowrap;
+}
+.info-filter__btn:hover{
+	color: #d82727;
+}
+.active .info-filter__btn{
+	color: #ffc92f;
+	background: #1b1b1b;
+} 
+.products__info-item{
+	
+	margin-bottom: 100px;
+	position: relative;
+	
+}
+.products__info-item{
+	display: flex;
+	justify-content: center;
+	background: #fff;
+	border: 20px solid #ffb600;
+	border-top: 10px solid #ffb600;
+}
+.products__info-item-left{
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	min-width: 400px;
+}
+.table_pic{
+	size: cover;
+}
+.products__info-item-right{
+	display: flex;
+	align-items: start;
+}
+.products__info-item-text{
+	margin-top: 25px;
+	display: block;
+}
+.footer{
+	margin-bottom: 115px;
+	display: flex;
+	justify-content: center;
+
+}
+.products_right_text{
+	display: flex;
+	flex-flow: column;
+}
+.footer__container{
+	width: 1200px;
+}
+.site-menu__sections{
+	display: flex;
+	justify-content: space-between;
+
+}
+.site-menu__col{
+	margin-right: 20px;
+
+}
+.site-menu__col:last-child{
+	margin-right: 0px;
+}
+.site-menu__title{
+	font-size: 24px;
+	font-weight: bold;
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 24px;
+}
+.site-menu__item{
+	margin-bottom: 15px;
+}
+.site-menu__link{
+	color: #737373;
+	font-size: 15px;
+	text-decoration: none;
+
+}
+.site-menu__link:hover{
+	color: red;
+
+}
+.site-menu{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: ;
+}
+.site-menu__text {
+font-size: 15px;
+color: #000;
+margin-bottom: 30px;
+}
+.site-menu__text-row {
+color: inherit;
+text-decoration: none;
+display: block;
+margin-bottom: 5px;
+}
+
+.extras{
+	display: flex;
+	margin-bottom: 95px;
+
+}
+.extras__col{
+	margin-right: 20px;
+	flex: 1;
+}
+.extras__col:last-child {
+	margin-right: 0px;
+}
+.extras__best{
+	text-align: center;
+	color: #fff;
+	background: #232323;
+	font-size: 30px;
+	line-height: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 50px 20%;
+	display: block;
+	text-decoration: none;
+}
+.extras__col-socials{
+	height: 100%;
+	background: url(img/pattern.png) center center;
+}
+.socials{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.socials__item{
+	margin-top: 70px;
+	padding: 20px;
+	padding-top: 0;
+}
+.fa{
+	font-size: 30px;
+}
+.socials__link:hover{
+	color: red;
+}
+.extras__col{
+	margin-top: 50px;
+}
+
+label{
+	cursor: pointer;
+}
+input[type="radio"]:checked+.size_but{
+ 	background-color: yellow;
+ 	border-color: yellow;
+} 
+input[type="radio"]+.size_but{
+ 	width:36px;
+ 	height: 36px;
+ 	display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    border: 2px solid #ddd;
+    transition: 0.3s;
+} 
+.Button-size__List input[disabled="true"]+.size_but{
+	cursor:	auto;
+	opacity: 0.5;
+}
+
+.button-size--item{
+	display: none;
+}
+
+.color__but{
+  
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+.color__but-black{
+		background-color: black;
+}
+.color__but-white{
+	background-color: white;
+	border: 1px solid #adb5bd;
+}
+.color__but-green{
+	background-color: green;
+}
+.color__but-red{
+	background-color: red;
+}
+.color__but-blue{
+	 background-color: blue;
+}
+input[type="radio"]:checked+.color__but-black{
+ 
+ 	border: 2px solid #fff;
+ 	
+} 
+input{
+	display: none;
+}
+input[type="radio"]:checked+.color__but-white{
+ 	
+ 	box-shadow: yellow;
+ 	border-color: yellow;
+} 
+input[type="radio"]:checked+.color__but-green{
+
+ 	border: 2px solid #adb5bd;
+ 	box-shadow: 10px yellow;
+} 
+input[type="radio"]:checked+.color__but-red{
+ 	
+ 	border: 2px solid #adb5bd;
+ 	box-shadow: yellow;
+} 
+input[type="radio"]:checked+.color__but-blue{
+
+ 	border: 2px solid #adb5bd;
+ 	box-shadow: yellow;
+} 
+
+.tshirt__img {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.tshirt__img li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.tshirt__img li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.tshirt__img img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+
+.products__info-item{
+display: none;
+}
+.products__info-item.active{
+	display: flex;
+	justify-content: center;
+}

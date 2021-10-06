@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Домашня робота</title>
+	<link rel="stylesheet" href="normalize.css">
+	<script src="https://kit.fontawesome.com/1c870d76f9.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+	<div class="wrapper">
+	<section class="hero">
+
+		<header class="head">
+			<div class="header">
+			<a href="#" class="logo">
+				<img src="img/logo.png" alt="" class="logo__image">
+			</a>
+		<div class="header__img">
+			
+			<h2 class="header__background-text">
+				<div class="header__line-text">Три</div>
+				<div class="header__line-text">Футболки</div>
+				<div class="header__line-text header__line-text-yellow">По цене</div>
+				<div class="header__line-text header__line-text-yellow">Двух</div>
+			</h2>
+		</div>
+<a href="#" class="mail">
+	<div class="mail__title">По всем вопросам пишите на:</div>
+	<div class="mail__content">Dim4eg456@gmail.com</div>
+</a>
+</div>
+</header>
+</section>
+		<section class="products">
+			<div class="container">
+				<div class="products__desk">
+					<div class="products__desk__left">
+						<ul class="tshirt__img">
+							
+							<li class="tshirt__img-list">
+						<img src="img/tshirt.png" alt="" id="imagetest" class="products__desk-img">
+							</li>
+
+						</ul>
+					
+					</div>
+					<div class="products__desk__right">
+						
+						<div class="tshirt__text">
+					<div class="products__title">
+						<h3 class="name__title">футболка Harley</h3>
+						<div class="title__name">
+							<h1 class="title__name-text">Rick and Morty</h1>
+						</div>
+						
+						<div class="products__price">
+							<h2 class="title__price-text">2000р</h2>
+						</div>
+						
+					</div>
+					<div class="products__descriptions">
+						<ul class="products__">
+							<li class="products__descriptions-text">
+								Состав: Хлопок 100%
+							</li>
+							<li class="products__descriptions-text">
+								Сезон:Мульти
+							</li>
+							<li class="products__descriptions-text">
+								Цвет: Чёрный
+							</li>
+							<li class="products__descriptions-text">
+								Узор: Рисунки и надписи
+							</li>
+							<li class="products__descriptions-text">
+								Страна производитель: Россия
+							</li>
+							<li class="products__descriptions-text">
+								Артикул: MA002EWDDEZ6
+							</li>
+						</ul>
+						
+					</div>
+					<div class="sizes__buttons">
+						<ul class="button__sizes">
+							<li class="Button-size__List">
+									
+									<input type="radio" disabled="true" class="button-size--item" name="button--size" id="but1">
+									<label for="but1" class="size_but">
+										XXS
+									</label>
+							</li>
+							<li class="Button-size__List">
+									
+									<input type="radio" class="button-size--item" name="button--size" id="but2">
+									<label for="but2" class="size_but">
+										XS
+									</label>
+							</li>
+							<li class="Button-size__List">
+									
+									<input type="radio" class="button-size--item" name="button--size" id="but3">
+									<label for="but3" class="size_but">
+										S
+									</label>
+							</li>
+							<li class="Button-size__List">
+									
+									<input type="radio" class="button-size--item" name="button--size" id="but4">
+									<label for="but4" class="size_but">
+										M
+									</label>
+							</li>
+							<li class="Button-size__List">
+									
+									<input type="radio" class="button-size--item" name ="button--size" id="but5">
+									<label for="but5" class="size_but">
+										L
+									</label>
+							</li>
+							<li class="Button-size__List">
+									
+									<input type="radio" class="button-size--item" name="button--size" id="but6">
+									<label for="but6" class="size_but">
+										XL
+									</label>
+							</li>
+							<li class="Button-size__List">
+									
+									<input type="radio" class="button-size--item" name="button--size">
+									<label for="button--size" class="size_but">
+										2XL
+									</label>
+							</li>
+							<li class="Button-size__List">
+									
+									<input type="radio" class="button-size--item" name="button--size">
+									<label for="button--size" class="size_but">
+										3XL
+									</label>
+							</li>
+						</ul>
+					</div>	
+					<div class="color__btn">
+					<UL class="btn__color">
+						<li class="color__list">
+							<input class="color-btn-item" type="radio" name="color__button" id="black" value="one" onchange='check_value(event)'>
+							<label for="black" class="color__but color__but-black">
+								
+							</label>
+							
+						</li>
+						<li class="color__list">
+							<input class="color-btn-item" type="radio" name="color__button" id="white" value="two" onchange='check_value(event)'>
+							<label for="white" class="color__but color__but-white">
+								
+							</label>
+							
+						</li>
+						<li class="color__list">
+							<input class="color-btn-item" type="radio" name="color__button" id="green" value="three" onchange='check_value(event)'>
+							<label for="green" class="color__but color__but-green">
+								
+							</label>
+							
+						</li>
+						<li class="color__list">
+							<input class="color-btn-item" type="radio" name="color__button" id="blue" value="four" onchange='check_value(event)'>
+							<label for="blue" class="color__but color__but-blue" >
+								
+							</label>
+							
+						</li>
+						<li class="color__list" >
+							<input class="color-btn-item" type="radio" name="color__button" id="red" value="five" onchange='check_value(event)'>
+							<label for="red" class="color__but color__but-red">
+								
+							</label>
+							
+						</li>
+					</UL>
+					</div>
+					<div class="buy__btn">
+						<a href="#" class="buy">Купить</a>
+					</div>
+				</div>
+
+
+					</div>
+					
+				</div>
+				<div class="products__info">
+					
+						<ul class="info-filter">
+							<li class="info-filter__list active" >
+								<a href="#"  class="info-filter__btn"  >Описание</a>
+							</li>
+							<li class="info-filter__list " >
+								<a href="#"  class="info-filter__btn"  >Таблица размеров</a>
+							</li>
+							<li class="info-filter__list" >
+								<a href="#"  class="info-filter__btn" >Условия доставки</a>
+							</li>
+							<li class="info-filter__list" >
+								<a href="#"  class="info-filter__btn">О бренде</a>
+							</li>
+						</ul>
+					
+					
+							
+							<div class="products__info-item active" >
+
+						<div class="products__info-item-left">
+							<img src="img/text_wash.png" alt="">
+						</div>
+						<div class="products__info-item-right products_right_text">
+					
+							<p>Футболка из приятной ткани с качествинным принтом,это одна из самых универсальных вещей</p>
+							<p>в гардеробе. Она подойдет и для занятий спортом, и для прогулок, и для работы, если разрешен</p>
+							<p>свободный дресс-код</p>
+						</div>
+
+						</div>
+					<div class="products__info-item" >
+
+						<div class="products__info-item-left">
+							<div class="products__info-item-pic">
+								<img src="img/tshirt_00.png" alt="">
+							</div>
+							<div class="products__info-item-txt">
+								<p class="txt">1. Измерьте ширину, см <br>(от подмышки до подмышки)</p>
+								<p class="txt">2. Измерьте длину, см<br>(от верхней точки плеча до низа)</p>
+								<p class="txt">3. Сверьте данные с таблицей</p>
+							</div>
+						</div>
+						<div class="products__info-item-right">
+							<img src="img/table.png" alt="" width="100%"
+							height="100%">
+						</div>
+
+					</div>
+
+					<div class="products__info-item" >
+
+						<div class="products__info-item-left">
+							<img src="img/express.png" alt="" >
+						</div>
+						<div class="products__info-item-right products_right_text ">
+					
+							<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Ea eum nobis a perspiciatis facilis debitis sequi eos dolor animi ipsa aliquam, enim, cumque ut modi?</p>
+							<p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Corrupti recusandae modi illum ex atque rerum corporis asperiores iure. Necessitatibus, vel.</p>
+							<p>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sapiente, accusantium, natus eligendi repellat rerum magni. Recusandae ea quo, minima!</p>
+							
+						</div>
+						
+				</div>
+
+				<div class="products__info-item">
+
+						<div class="products__info-item-left">
+							<img src="img/logo_2.png" alt="" width="90%" >
+						</div>
+						<div class="products__info-item-right products_right_text ">
+					
+							<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Ea eum nobis a perspiciatis facilis debitis sequi eos dolor animi ipsa aliquam, enim, cumque ut modi?</p>
+							<p>Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Corrupti recusandae modi illum ex atque rerum corporis asperiores iure. Necessitatibus, vel.</p>
+							<p>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Assumenda sapiente, accusantium, natus eligendi repellat rerum magni. Recusandae ea quo, minima!</p>
+							
+						</div>
+						</div>
+			
+		</div>
+		</section>
+
+		<footer class="footer">
+	<div class="container footer__container">
+		<nav class="site-menu">
+			<ul class="site-menu__sections">
+				<li class="site-menu__col">
+					<h5 class="site-menu__title">Информация</h5>
+					<ul class="site-menu__list">
+						<li class="site-menu__item">
+							<a href="#" class="site-menu__link">О магазине</a>
+						</li>
+						<li class="site-menu__item">
+							<a href="#" class="site-menu__link">Адреса магазинов</a>
+						</li>
+						<li class="site-menu__item">
+							<a href="#" class="site-menu__link">Как сделать заказ?</a>
+						</li>
+						<li class="site-menu__item">
+							<a href="#" class="site-menu__link">Обмен и возврат</a>
+						</li>
+						<li class="site-menu__item">
+							<a href="#" class="site-menu__link">Отзывы</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+				<ul class="site-menu__sections">
+				<li class="site-menu__col">
+					<h5 class="site-menu__title">Футблоки</h5>
+					<ul class="site-menu__list">
+						<li class="site-menu__item">
+							<a href="#" class="site-menu__link">Популярное</a>
+						</li>
+						<li class="site-menu__item">
+							<a href="#" class="site-menu__link">Новинки</a>
+						</li>
+						<li class="site-menu__item">
+							<a href="#" class="site-menu__link">Бестселлеры</a>
+						</li>
+						<li class="site-menu__item">
+							<a href="#" class="site-menu__link">Специальные предложения</a>
+						</li>
+						<li class="site-menu__item">
+							<a href="#" class="site-menu__link">Скоро в продаже</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+				<ul class="site-menu__sections">
+				<li class="site-menu__col">
+					<h5 class="site-menu__title">Колекции</h5>
+					<ul class="site-menu__list">
+						<li class="site-menu__item">
+							<a href="#" class="site-menu__link">Детская колекция</a>
+						</li>
+						<li class="site-menu__item">
+							<a href="#" class="site-menu__link">Женская колекция</a>
+						</li>
+						<li class="site-menu__item">
+							<a href="#" class="site-menu__link">Мужская колекция</a>
+						</li>
+						<li class="site-menu__item">
+							<a href="#" class="site-menu__link">Лучшие принты 2020 года</a>
+						</li>
+						<li class="site-menu__item">
+							<a href="#" class="site-menu__link">Лучшие принты 2021 года</a>
+						</li>
+					</ul>
+				</li>
+				</ul>
+					<ul class="site-menu__sections">
+				<li class="site-menu__col">
+					<h5 class="site-menu__title">Контактная информация</h5>
+					<div class="site-menu__text">
+						город Киев <br>
+						ул Жуковского 2
+					</div>
+					<div class="site-menu__text">
+						<a href="tel.:+380505990525" class="site-menu__text-row">
+							+380505990525
+						</a>
+						<a href="mailto:Dim4eg456@gmail.com" class="site-menu__text-row">
+							Dim4eg456@gmail.com
+						</a>
+					</div>
+				</li>
+			</ul>
+			
+		</nav>
+		<section class="extras">
+			<div class="extras__col">
+				<a href="#" class="extras__best">
+					<div class="extras__best-text">
+						Лучшие принты 	2021года
+					</div>
+				
+				</a>
+			</div>
+			<div class="extras__col">
+				<div class="extras__col-socials">
+					<ul class="socials">
+						<li class="socials__item">
+							<a href="#" class="socials__link">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+							</a>
+						</li>
+						<li class="socials__item">
+							<a href="#" class="socials__link">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</a>
+						</li>
+						<li class="socials__item">
+							<a href="#" class="socials__link">
+								<i class="fa fa-pinterest-p" aria-hidden="true"></i>
+							</a>
+						</li>
+						<li class="socials__item">
+							<a href="#" class="socials__link">
+								<i class="fa fa-telegram" aria-hidden="true"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</div>
+</footer>
+
+
+				</div>	
+				<script  src="https://code.jquery.com/jquery-3.6.0.min.js"  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="  crossorigin="anonymous">
+					
+				</script>
+
+	
+	<script src="js/scr.js"></script>
+
+	
+	<script src="js/slider.js"></script>
+</body>
+</html>
